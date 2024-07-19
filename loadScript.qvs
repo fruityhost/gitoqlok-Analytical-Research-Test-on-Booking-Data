@@ -1,0 +1,133 @@
+///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='£#,##0.00;-£#,##0.00';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='DD/MM/YYYY';
+SET TimestampFormat='DD/MM/YYYY hh:mm:ss[.fff]';
+SET FirstWeekDay=0;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='en-GB';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
+
+
+LIB CONNECT TO 'MySQL_Enterprise_Edition_hrtest.12go.asia (datanomix.pro_kamilla@datanomix.pro)';
+
+
+LOAD bid, 
+	paidon, 
+	paidon_date, 
+	transaction_id, 
+	seller_id, 
+	seller_name, 
+	operator_id, 
+	class_id, 
+	from_id, 
+	from_province_id, 
+	from_country_id, 
+	from_station_name, 
+	to_id, 
+	to_province_id, 
+	to_country_id, 
+	to_station_name, 
+	seats, 
+	godate, 
+	godate_date, 
+	op_start, 
+	op_start_date, 
+	dura, 
+	fxcode, 
+	cust_id, 
+	lang_id, 
+	customer_role_id, 
+	stamp, 
+	createdby, 
+	createdby_role_id, 
+	createdon, 
+	createdon_date, 
+	refund_date, 
+	refund_usd, 
+	netprice_usd, 
+	sysfee_usd, 
+	agfee_usd, 
+	total_usd, 
+	sysfee_total_usd, 
+	agfee_total_usd, 
+	netprice_total_usd, 
+	useragent, 
+	referer, 
+	landing, 
+	country_id;
+
+[analytic_test_booking]:
+SELECT bid,
+	paidon,
+	`paidon_date`,
+	`transaction_id`,
+	`seller_id`,
+	`seller_name`,
+	`operator_id`,
+	`class_id`,
+	`from_id`,
+	`from_province_id`,
+	`from_country_id`,
+	`from_station_name`,
+	`to_id`,
+	`to_province_id`,
+	`to_country_id`,
+	`to_station_name`,
+	seats,
+	godate,
+	`godate_date`,
+	`op_start`,
+	`op_start_date`,
+	dura,
+	fxcode,
+	`cust_id`,
+	`lang_id`,
+	`customer_role_id`,
+	stamp,
+	createdby,
+	`createdby_role_id`,
+	createdon,
+	`createdon_date`,
+	`refund_date`,
+	`refund_usd`,
+	`netprice_usd`,
+	`sysfee_usd`,
+	`agfee_usd`,
+	`total_usd`,
+	`sysfee_total_usd`,
+	`agfee_total_usd`,
+	`netprice_total_usd`,
+	useragent,
+	referer,
+	landing,
+	`country_id`
+FROM `12go`.`analytic_test_booking`;
+LIB CONNECT TO 'MySQL_Enterprise_Edition_hrtest.12go.asia (datanomix.pro_kamilla@datanomix.pro)';
+
+LOAD operator_id, 
+	operator_name, 
+	station_id, 
+	seller_id, 
+	operator_code;
+
+[operator]:
+SELECT `operator_id`,
+	`operator_name`,
+	`station_id`,
+	`seller_id`,
+	`operator_code`
+FROM `12go`.operator;
+
+
+

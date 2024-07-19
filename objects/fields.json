@@ -1,0 +1,475 @@
+[
+  {
+    "qName": "agfee_total_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "agfee_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "bid",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "class_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "country_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "createdby",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "createdby_role_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "createdon",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "createdon_date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "cust_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "customer_role_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "dura",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "from_country_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "from_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "from_province_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "from_station_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "fxcode",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "godate",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "godate_date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "landing",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "lang_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "netprice_total_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "netprice_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "op_start",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "op_start_date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "operator_code",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "operator"
+    ]
+  },
+  {
+    "qName": "operator_id",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking",
+      "operator"
+    ]
+  },
+  {
+    "qName": "operator_name",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "operator"
+    ]
+  },
+  {
+    "qName": "paidon",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "paidon_date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "referer",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "refund_date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "refund_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "seats",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "seller_id",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking",
+      "operator"
+    ]
+  },
+  {
+    "qName": "seller_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "stamp",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "station_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "operator"
+    ]
+  },
+  {
+    "qName": "sysfee_total_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "sysfee_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "to_country_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "to_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "to_province_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "to_station_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "total_usd",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "transaction_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  },
+  {
+    "qName": "useragent",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "analytic_test_booking"
+    ]
+  }
+]
