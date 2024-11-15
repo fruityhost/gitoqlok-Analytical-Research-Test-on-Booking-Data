@@ -1,0 +1,27 @@
+[
+  {
+    "id": "a28986f0-d90f-47fd-89cb-5a099b202c1e",
+    "createdDate": "2024-11-15T12:33:32.392Z",
+    "modifiedDate": "2024-11-15T12:33:32.392Z",
+    "modifiedByUserName": "DATANOMIX\\qlikservice",
+    "customProperties": [],
+    "owner": {
+      "id": "a795f60d-472f-4472-8aeb-33bd0bb91fa0",
+      "userId": "qlikservice",
+      "userDirectory": "DATANOMIX",
+      "userDirectoryConnectorName": "DATANOMIX",
+      "name": "qlikservice",
+      "privileges": null
+    },
+    "name": "MySQL_Enterprise_Edition_test (datanomix_qlikservice)",
+    "connectionstring": "CUSTOM CONNECT TO \"provider=QvOdbcConnectorPackage.exe;driver=mysql;host=hrtest.12go.asia;port=20062;db=12go;UseTrustStore=false;SSLMode=PREFERRED;allowNonSelectQueries=false;QueryTimeout=30;useBulkReader=true;maxStringLength=4096;logSQLStatements=false;\"",
+    "type": "QvOdbcConnectorPackage.exe",
+    "engineObjectId": "a28986f0-d90f-47fd-89cb-5a099b202c1e",
+    "username": "hrtest-ro",
+    "logOn": 1,
+    "architecture": 0,
+    "tags": [],
+    "privileges": null,
+    "schemaPath": "DataConnection"
+  }
+]

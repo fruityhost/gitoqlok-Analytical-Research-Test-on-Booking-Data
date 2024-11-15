@@ -1515,13 +1515,13 @@
           }
         },
         "legend": {
-          "show": true,
+          "show": false,
           "dock": "auto",
           "showTitle": true
         },
         "dimensionAxis": {
           "continuousAuto": true,
-          "show": "all",
+          "show": "title",
           "label": "auto",
           "dock": "near",
           "axisDisplayMode": "auto",
@@ -1567,7 +1567,7 @@
           }
         ],
         "showMiniChartForContinuousAxis": true,
-        "hash": 0.0751620846112544
+        "hash": 0.8439953670635809
       },
       "qChildren": []
     },
@@ -1974,7 +1974,7 @@
         },
         "dimensionAxis": {
           "continuousAuto": true,
-          "show": "all",
+          "show": "none",
           "label": "auto",
           "dock": "near",
           "axisDisplayMode": "auto",

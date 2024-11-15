@@ -19,7 +19,7 @@ SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
 
 
-LIB CONNECT TO 'MySQL_Enterprise_Edition_hrtest.12go.asia (datanomix.pro_kamilla@datanomix.pro)';
+LIB CONNECT TO 'MySQL_Enterprise_Edition_test (datanomix_qlikservice)';
 
 
 LOAD bid, 
